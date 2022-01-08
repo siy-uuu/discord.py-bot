@@ -117,11 +117,6 @@ async def on_message(message):
             error = discord.Embed(title="존재하지 않는 소환사명입니다.\n다시 한번 확인해주세요.", color=0xFF9900)
             await message.channel.send(embed=error)
 
-    if message.content == "#숑비":
-        embed = discord.Embed(title="", description="춥나보네", color=0x00ff00)
-        embed.set_image(
-            url="https://cdn.discordapp.com/attachments/794181334360653828/845296251822014525/20201228_062149682_iOS_1.jpg")
-        await message.channel.send(embed=embed)
         
     if message.content.startswith("#청소"):
         i = (message.author.guild_permissions.administrator)
