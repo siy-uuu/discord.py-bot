@@ -264,4 +264,4 @@ async def on_message(message):
                 embed = discord.Embed(title='❌  오류', description=f'오류가 발생하였습니다\n`{str(e)}`', color=0xFF0000)
                 await message.channel.send(embed=embed)
  
-client.run("ODE5NTAwODE3MjQ1NjY3MzI5.YEnhnA.nEvpzJKaAVONMRldYLYt48sg1ac")
+client.run("")
